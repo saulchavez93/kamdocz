@@ -65,5 +65,6 @@ public class App
         );
 
         emitter.connect();
+        Schedulers.shutdown();
     }
 }
